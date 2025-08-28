@@ -1,10 +1,10 @@
 package com.fondopension.fondopension;
 
 import com.fondopension.fondopension.domain.enums.Categoria;
-import com.fondopension.fondopension.infrastruture.persistence.mongo.doc.CuentaDoc;
-import com.fondopension.fondopension.infrastruture.persistence.mongo.doc.FondoDoc;
-import com.fondopension.fondopension.infrastruture.persistence.mongo.repo.CuentaMongoRepository;
-import com.fondopension.fondopension.infrastruture.persistence.mongo.repo.FondoMongoRepository;
+import com.fondopension.fondopension.infrastructure.persistence.mongo.doc.CuentaDoc;
+import com.fondopension.fondopension.infrastructure.persistence.mongo.doc.FondoDoc;
+import com.fondopension.fondopension.infrastructure.persistence.mongo.repo.CuentaMongoRepository;
+import com.fondopension.fondopension.infrastructure.persistence.mongo.repo.FondoMongoRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
